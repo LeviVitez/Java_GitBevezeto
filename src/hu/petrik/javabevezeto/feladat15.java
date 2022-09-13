@@ -6,5 +6,8 @@ public class feladat15 {
         for (int i = 0; i < tomb.length; i++) {
             tomb[i]=Math.random()*200-100; //-100 és 100 között random szám
         }
+        for (int i = 1; i < tomb.length; i+=2) {
+            System.out.print((tomb[i]*tomb[i])+ " ");
+        }
     }
 }
